@@ -66,6 +66,11 @@ body {
     z-index: -1; /* Mantiene la superposición detrás del contenido */
 }
 
+.banner {
+    background-attachment: scroll; /* Avoids "zooming" issues on iOS */
+    -webkit-background-size: cover; /* Ensures compatibility with older Safari versions */
+    -webkit-transform: translate3d(0, 0, 0); /* Fix for some rendering bugs */
+}
 
 
 .banner h2 {
