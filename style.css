@@ -616,19 +616,17 @@ footer p {
         text-align: center;
     }
 
-    .banner {
 
-    }
     
     .banner h2 {
-        font-size: 5rem;
+        font-size: 3rem;
         width: 100%;
         text-align: left;
     }
     
     .banner h3 {
         text-align: left;
-        font-size: 2rem;
+        font-size: 1rem;
         width: 75vw;
     }
     
