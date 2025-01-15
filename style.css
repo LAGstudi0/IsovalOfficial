@@ -53,6 +53,13 @@ body {
     justify-content: center;
     color: white;
     z-index: 1; /* Asegura que el contenido de texto quede encima */
+    position: relative;
+    width: 100%;
+    height: 330px; /* Adjust height as needed */
+    background-image: url('images/banner.webp');
+    background-size: cover; /* Ensures the entire area is covered */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
 }
 
 .banner::before {
@@ -611,10 +618,12 @@ footer p {
     
     /* Ajustes para el banner */
     .banner {
-        height:75vh;
+        height: 50vh; /* Adjust height for smaller screens */
+        background-size: contain; /* Fit image entirely inside the container */
         padding: 20px;
         text-align: center;
     }
+
     
     .banner h2 {
         font-size: 5rem;
